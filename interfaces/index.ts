@@ -16,3 +16,18 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+// interfaces/index.ts
+export interface PropertyProps {
+  id: number;
+  name: string;
+  price: number;
+  rating: number;
+  image: string;
+}
+
+export interface PillProps {
+  label: string;
+  onClick?: () => void;
+  active?: boolean;
+}
+
